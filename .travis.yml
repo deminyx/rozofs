@@ -18,7 +18,7 @@ before_install:
 install:
   - sudo apt-get -qqy update
   - sudo apt-get -qqy install lxc lxc-docker-1.2.0 slirp
-  - sudo sudo usermod -aG docker "$USER"
+  - sudo sudo usermod -aG docker "$USER" 
   - git clone https://github.com/denaitre/docker-rozofs.git
 
 before_script:
