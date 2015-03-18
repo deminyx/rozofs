@@ -2,4 +2,5 @@ language: c
 compiler:
   - gcc
   - clang
-script: make
+# Change this to your needs
+script: ./configure && make
