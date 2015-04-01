@@ -6,3 +6,4 @@ compiler:
 script: ./configure && make
 Change something
 
+Test
